@@ -18,9 +18,15 @@ _global_script_class_icons={
 config/name="TileSet"
 config/icon="res://icon.png"
 
+[debug]
+
+settings/fps/force_fps=5
+
 [display]
 
-window/size/width=800
+window/size/width=1920
+window/size/height=1080
+window/size/resizable=false
 
 [rendering]
 
