@@ -2,7 +2,7 @@
 
 An implementation of the famous Conway's Game Of Life using the Godot game engine.
 
-# Screenshot
+# Screenshots
 
 ![Alt text](screenshots/screenshot(0).png)
 
