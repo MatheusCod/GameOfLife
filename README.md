@@ -6,4 +6,5 @@ It was used the Godot Engine to make the game.
 # Screenshot
 
 ![Alt text](screenshots/screenshot(0).png)
+
 ![Alt text](screenshots/screenshot(1).png)
