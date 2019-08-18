@@ -1,7 +1,6 @@
 # Game Of Life
 
-This is an implementation of the famous Conway's Game Of Life.
-It was used the Godot Engine to make the game.
+An implementation of the famous Conway's Game Of Life using the Godot game engine.
 
 # Screenshot
 
