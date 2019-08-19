@@ -35,6 +35,8 @@ func _ready():
 func _process(delta):
 	cells = get_used_cells()
 	
+	print(cells.size())
+	
 	if(get_parent().get_parent().get_node("Menu").get_node("Status").pressed):
 		
 		#Speed control
@@ -68,11 +70,11 @@ func _process(delta):
 			elif (viz >= 4):
 				set_cell(cells[i][0], cells[i][1], -1)
 			
-#			if (cells[i][0] >= 57 or
-#				cells[i][0] <= -10 or
-#				cells[i][1] >= 43 or
-#				cells[i][1] <= -10):
-#					set_cell(cells[i][0], cells[i][1], -1)
+			if (cells[i][0] >= 57 or
+				cells[i][0] <= -10 or
+				cells[i][1] >= 43 or
+				cells[i][1] <= -10):
+					set_cell(cells[i][0], cells[i][1], -1)
 	
 		#End of living cells analysis 
 		cells.clear()
